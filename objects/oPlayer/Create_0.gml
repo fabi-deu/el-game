@@ -24,10 +24,21 @@ jump_buffer = 0;
 
 
 // character states
+enum PlayerState {
+	IDLE,
+	WALK,
+	JUMP,
+}
+show_debug_message(image_speed);
+
+
+state = PlayerState.IDLE
 on_ground = false;
+airborne = false;
+facing = 1;
 
 
-window_set_size(1280, 720);
+window_set_size(1920, 1080);
 
 dirt_tilemap = layer_tilemap_get_id("dirt_tilemap");
 

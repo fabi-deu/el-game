@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEuryalusIdleR",
-    "path":"sprites/sEuryalusIdleR/sEuryalusIdleR.yy",
+    "name":"sEuryalus",
+    "path":"sprites/sEuryalus/sEuryalus.yy",
   },
   "spriteMaskId":null,
   "visible":true,
