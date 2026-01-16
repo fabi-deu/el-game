@@ -69,11 +69,14 @@ y += vsp;
 // sprites
 if (vsp != 0) {
     state = PlayerState.JUMP;
-} else if (abs(hsp) <= 0.1) {
+} else if (abs(hsp) <= 0.1 && vsp == 0) {
     state = PlayerState.IDLE;
-} else if (abs(hsp) >= 0.1) {
+} else if (abs(hsp) >= 0.1 && vsp == 0) {
     state = PlayerState.WALK;
 } 
+
+show_debug_message(state);
+
 
 switch (state) {
 	case PlayerState.IDLE:
@@ -116,7 +119,7 @@ switch (state) {
 			} else if (vsp > 0 && airborne) {
 				image_index = 21
 			} else {
-				image_speed = 0.67;
+				image_speed = 0.1;
 				if ((image_index < 22 || image_index >= 23)) {
 					image_index = 22;
 				}

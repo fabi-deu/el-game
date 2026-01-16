@@ -40,7 +40,5 @@ facing = 1;
 
 window_set_size(1920, 1080);
 
-dirt_tilemap = layer_tilemap_get_id("dirt_tilemap");
 
-
-colliders = [dirt_tilemap];
+colliders = [layer_tilemap_get_id("dirt_tiles"), layer_tilemap_get_id("platform_tiles")];
