@@ -9,7 +9,7 @@ walk_max = 3;				// for clamping
 walk_friction = 0.6;		// x *= walk_friction for stopping slowly
 
 // jumping
-jump_height = -6;		// how high you jump
+jump_height = -6.5;		// how high you jump
 jump_cut = 0.4;				// jump release multiplier
 gravity_up = 0.4;			// upwards movement sp
 gravity_down = 0.2;			// downwards movement sp
@@ -38,7 +38,16 @@ airborne = false;
 facing = 1;
 
 
-window_set_size(1920, 1080);
+
+window_enable_borderless_fullscreen(true);
+window_set_fullscreen(true);
+window_center();
 
 
-colliders = [layer_tilemap_get_id("dirt_tiles"), layer_tilemap_get_id("platform_tiles")];
+platform_tiles = layer_tilemap_get_id("platform_tiles");
+colliders = [
+	layer_tilemap_get_id("dirt_tiles"),
+	//layer_tilemap_get_id("platform_tiles"),
+	oBricks,
+	oBarrier,
+];

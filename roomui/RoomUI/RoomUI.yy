@@ -1,0 +1,19 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[],"flexDirection":0,"flexWrap":1,"height":{"unit":1,"value":240.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":1.0,},"marginLeft":{"unit":1,"value":1.0,},"marginRight":{"unit":1,"value":1.0,},"maxHeight":{"unit":1,"value":120.0,},"maxWidth":{"unit":1,"value":247.0,},"minHeight":{"unit":1,"value":120.0,},"minWidth":{"unit":1,"value":427.0,},"name":"FlexPanel_1","nodeColour":4287623752,"paddingBottom":{"unit":1,"value":1.0,},"paddingLeft":{"unit":1,"value":1.0,},"paddingRight":{"unit":1,"value":1.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":427.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4294068417,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"el-game",
+    "path":"el-game.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}

@@ -29,6 +29,30 @@ if (vsp < 0) {
 on_ground = place_meeting(x, y + 1, colliders);
 airborne = place_meeting(x, y + 2, colliders);
 
+// one way platform collision
+// check if player is falling and going to collide with platform
+if (vsp > 0 && place_meeting(x , y + vsp, platform_tiles)) {
+	if (!place_meeting(x, y, platform_tiles)) {
+        while (!place_meeting(x, y + 1, platform_tiles)) {
+            y += 1;
+        }
+        // act as ground
+        vsp = 0;
+        on_ground = true;
+        // add platform to colliders
+        if (!array_contains(colliders, platform_tiles)) {
+            array_insert(colliders, 0, platform_tiles);
+        }
+    }
+} else {
+	// remove from colliders
+	if (array_contains(colliders, platform_tiles)) {
+		array_delete(colliders, 0, 1);
+	}
+} 
+
+
+       
 if (keyboard_check_pressed(vk_space)) {
 	jump_buffer = jump_buffer_max;
 }
@@ -73,11 +97,10 @@ if (vsp != 0) {
     state = PlayerState.IDLE;
 } else if (abs(hsp) >= 0.1 && vsp == 0) {
     state = PlayerState.WALK;
-} 
-
-show_debug_message(state);
+}
 
 
+// ! TODO: clean this mess up and use image_xscale
 switch (state) {
 	case PlayerState.IDLE:
 		image_speed = 0.1;
@@ -142,10 +165,7 @@ switch (state) {
 				}
 			}
 		}
-		
-		
-		
 		break;
-
 }
+
 
