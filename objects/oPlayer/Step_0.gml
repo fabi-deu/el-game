@@ -1,3 +1,12 @@
+// for dialogs
+if (lock_step_event) {
+	if (place_empty(x, y + 1, colliders)) y++;
+	image_xscale = facing;
+	image_index = 0;
+	return;
+}
+
+
 var move = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 // set facing of player for sprites

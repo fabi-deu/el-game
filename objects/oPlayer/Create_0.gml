@@ -51,3 +51,66 @@ colliders = [
 	oBricks,
 	oBarrier,
 ];
+
+
+// dialogs
+lock_step_event = false;
+current_dialog = 0;
+dialogs = {
+	"Intro": [ // room 1
+		{
+			sprite: sEuryalusDialog,
+			text: "Liebe Lucretia, Hoffnung und Heil meines Lebens hängen von dir ab.\nIch liebe dich mehr als mich selbst."
+		}
+	],
+	"lucretias_villa": [ // room 2
+		{
+			sprite: sLucretiaDialog,
+			text: "Ich habe deinen Brief erhalten.\nDass du mich liebst, wundert mich gar nicht."
+		},
+		{
+			sprite: sLucretiaDialog,
+			text: "Doch mit mir alleine zu sprechen ist unmöglich, es sei denn, du verwandelst dich in eine Schwalbe."
+		},
+		//{
+		//	sprite: sLucretiaDialog,
+		//	text: "So nehme diesen Ring als Geschenk."
+		//},
+		//
+		{
+			sprite: sEuryalusDialog,
+			text: "Es tut mir weh, dass du meine Liebe gering achtest.\nDu kannst mir nämlich leichter das Leben mit Worten rauben, als jener mit dem Schwert."
+		},
+		{
+			sprite: sEuryalusDialog,
+			text: "Sag, dass du mich liebst, Lucretia!"
+		},
+		//
+		{
+			sprite: sLucretiaDialog,
+			text: "Ich möchte dir, wie du wünscht, Euryalus, meine Liebe schenken."
+		},
+		{
+			sprite: sLucretiaDialog,
+			text: "Die Geschichten von Frauen, die Ausländer geliebt haben, jedoch schrecken mich ab."
+		},
+		//
+		{
+			sprite: sEuryalusDialog,
+			text: "Oh Lucretia, mach dir keine Sorge!"
+		},
+		{
+			sprite: sEuryalusDialog,
+			text: "Es ist ungerecht, nach dem Verhalten einiger das ganze Geschlecht zu beurteilen."
+		},
+		{
+			sprite: sEuryalusDialog,
+			text: "Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate."
+		}
+	],
+	"room3": [ // room 3
+		
+	]
+
+};
+

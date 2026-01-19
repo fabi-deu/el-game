@@ -1,0 +1,34 @@
+--- INTRO ---
+Euryalus: Liebe Lucretia, Hoffnung und Heil meines Lebens hängen von dir ab.
+	Ich liebe dich mehr als mich selbst.
+
+
+--- Room 2 ---
+Lucretia: Ich habe deinen Brief erhalten.
+	Dass du mich liebst, wundert mich gar nicht.
+	..
+	Doch mit mir alleine zu sprechen ist unmöglich, es sei denn, du verwandelst dich in eine Schwalbe.
+	-- So nehme diesen Ring als Geschenk
+
+Euryalus: Es tut mir weh, dass du meine Liebe gering achtest.
+	Du kannst mir nämlich leichter das Leben mit Worten rauben, als jener mit dem Schwert.
+	Sag, dass du mich liebst, Lucretia!
+
+Lucretia: Ich möchte dir, wie du wünscht, Euryalus, meine Liebe schenken.
+	Die Geschichten von Frauen, die Ausländer geliebt haben, jedoch schrecken mich ab.
+
+Euryalus: Oh Lucretia, mach dir keine Sorge!
+	Es ist ungerecht, nach dem Verhalten einiger das ganze Geschlecht zu beurteilen.
+	Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate
+
+--- Window scene ---
+Euryalus: Oh Lucretia, mein Stern der Liebe!
+
+Lucretia: Oh mein Euryalus, lange trauerte ich wegen dir.
+	Doch jetzt bist du zurück, mein Liebster.
+
+Euryalus: Ich sterbe, wenn ich dich immer nur sehen, nie aber in meinen Armen halten darf.
+	Doch wir müssen aufpassen, der Kaiser ist verdächtig unserer Liebe.
+	
+
+
