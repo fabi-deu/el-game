@@ -11,7 +11,10 @@ drawDialog(_sprite, _text);
 
 
 // for next dialog
-if (keyboard_check_pressed(vk_space)) {
+if (keyboard_check_pressed(vk_left)) {
+	//current_dialog--;
+	current_dialog = clamp(--current_dialog, 0, array_length(dialogs[$_room_name]));
+} else if (keyboard_check_pressed(vk_anykey)) {
 	current_dialog++;
 }
 

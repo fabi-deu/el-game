@@ -22,7 +22,7 @@ Euryalus: Oh Lucretia, mach dir keine Sorge!
 	Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate.
 
 --- Window scene ---
-Euryalus: Oh Lucretia, mein Stern der Liebe!
+Euryalus: Oh Lucretia, mein Stern der Liebe! (51)
 
 Lucretia: Oh mein Euryalus, lange trauerte ich wegen dir.
 	Doch jetzt bist du zurück, mein Liebster.
