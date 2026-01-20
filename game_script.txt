@@ -19,7 +19,7 @@ Lucretia: Ich möchte dir, wie du wünscht, Euryalus, meine Liebe schenken.
 
 Euryalus: Oh Lucretia, mach dir keine Sorge!
 	Es ist ungerecht, nach dem Verhalten einiger das ganze Geschlecht zu beurteilen.
-	Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate
+	Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate.
 
 --- Window scene ---
 Euryalus: Oh Lucretia, mein Stern der Liebe!
