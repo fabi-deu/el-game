@@ -1,3 +1,14 @@
+
+// for death animation
+if (is_dead) {
+	death_timer--;
+	if (death_timer <= 0) { room_restart(); }
+	image_index = death_index;
+	return;
+} else {
+	death_index = image_index;
+}
+
 // for dialogs
 if (lock_step_event) {
 	if (place_empty(x, y + 1, colliders)) y++;
@@ -10,9 +21,7 @@ if (lock_step_event) {
 var move = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 // set facing of player for sprites
-if (move != 0) {
-	facing = move;
-}
+if (move != 0) facing = move;
 
 
 

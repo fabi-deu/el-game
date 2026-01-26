@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oLucretia",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oDialogTrigger",
+  "eventList":[],
   "managed":true,
-  "name":"oLucretia",
+  "name":"oDialogTrigger",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oEnvelope",
+    "path":"objects/oEnvelope/oEnvelope.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sLucretia",
-    "path":"sprites/sLucretia/sLucretia.yy",
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"sEnvelope",
+    "path":"sprites/sEnvelope/sEnvelope.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

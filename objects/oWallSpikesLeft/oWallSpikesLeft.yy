@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oLucretia",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oWallSpikesLeft",
+  "eventList":[],
   "managed":true,
-  "name":"oLucretia",
+  "name":"oWallSpikesLeft",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sLucretia",
-    "path":"sprites/sLucretia/sLucretia.yy",
+    "name":"sWallSpikesLeft",
+    "path":"sprites/sWallSpikesLeft/sWallSpikesLeft.yy",
   },
   "spriteMaskId":null,
   "visible":true,

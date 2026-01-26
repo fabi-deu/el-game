@@ -37,6 +37,9 @@ on_ground = false;
 airborne = false;
 facing = 1;
 
+is_dead = false;
+death_timer = 0; // frames to wait until ´room_reset();´
+death_index = image_index;	 // frame of animation
 
 
 window_enable_borderless_fullscreen(true);
@@ -47,9 +50,9 @@ window_center();
 platform_tiles = layer_tilemap_get_id("platform_tiles");
 colliders = [
 	layer_tilemap_get_id("dirt_tiles"),
-	//layer_tilemap_get_id("platform_tiles"),
+	layer_tilemap_get_id("pebble_tiles"),
 	oBricks,
-	oBarrier,
+	oBarrier
 ];
 
 
@@ -108,7 +111,7 @@ dialogs = {
 			text:	"Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate."
 		}
 	],
-	"window": [ // room 3
+	"window": [ // window
 		{
 			sprite: sEuryalusDialog,
 			text:	"Oh Lucretia, mein Stern der Liebe!",
@@ -124,7 +127,76 @@ dialogs = {
 		{
 			sprite: sEuryalusDialog,
 			text:	"Doch wir müssen aufpassen, der Kaiser ist verdächtig unserer Liebe.",
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"\n ..."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Geh Sosias, und sage Euryalus, dass der einzige Weg zu mir, sich in vier Tagen als Lasttäger beim Einbrigen des Getreides zu verkleiden, ist."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Er soll sich dabei zu mir ins Schlafzimmer schleichen!"
 		}
+	],
+	
+	"first_meeting": [
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Sei gegrüßt, mein Herz, sei gegrüßt, Hort meines Lebens, du meine Hoffnung."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Umarme mich!"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Du bist wirklich da, Euryalus, du bist wirklich gekommen, Ärmster."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Jetzt weiß ich, dass du mich Liebst, denn du hast mir deine Liebe bewiesen."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Aber du wirst sehen, auch ich bin es imstande."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Niemand außer du wird mich besitzen, auch der nicht, den ich nach dem Gesetz meinen Gatten nennen muss."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"..."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Nehm dich in acht!\nMenelaos eilt bereits die Treppe hinauf!"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Hier versteck dich unter dem Bett!"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Ich Narr!\nNur mein Leichtsinn konnte mich verleiten, hierherzukommen!"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Jetzt ertappen sie mich und ich verliere meine Ehre!"
+		},
+		//
+		{
+			sprite:	noone,
+			text:	"\\CANCEL_DIALOG"
+		},
+		//
+		{
+			sprite:	sEuryalusDialog,
+			text:	"wdwdwd"
+		},
 	]
 
 };

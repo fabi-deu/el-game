@@ -25,6 +25,6 @@ function drawDialog(sprite, text) {
 	    box_y1,
 	    text,
 	    -1,        // line separation
-	    box_w     // wrap
+	    box_w      // wrap
 	);
 }

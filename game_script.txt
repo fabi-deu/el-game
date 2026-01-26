@@ -3,7 +3,7 @@ Euryalus: Liebe Lucretia, Hoffnung und Heil meines Lebens hängen von dir ab.
 	Ich liebe dich mehr als mich selbst.
 
 
---- Room 2 ---
+--- lucretias_villa ---
 Lucretia: Ich habe deinen Brief erhalten.
 	Dass du mich liebst, wundert mich gar nicht.
 	..
@@ -21,7 +21,7 @@ Euryalus: Oh Lucretia, mach dir keine Sorge!
 	Es ist ungerecht, nach dem Verhalten einiger das ganze Geschlecht zu beurteilen.
 	Ich schwöre dir meine Liebe, doch ein Dienst erfordert meine Anwesenheit für 2 Monate.
 
---- Window scene ---
+--- window ---
 Euryalus: Oh Lucretia, mein Stern der Liebe! (51)
 
 Lucretia: Oh mein Euryalus, lange trauerte ich wegen dir.
@@ -29,6 +29,37 @@ Lucretia: Oh mein Euryalus, lange trauerte ich wegen dir.
 
 Euryalus: Ich sterbe, wenn ich dich immer nur sehen, nie aber in meinen Armen halten darf.
 	Doch wir müssen aufpassen, der Kaiser ist verdächtig unserer Liebe.
+
+...
+
+Lucretia: Geh Sosias, und sage Euryalus, dass der einzige Weg zu mir, sich als Lasttäger beim Einbrigen des Getreides zu verkleiden, ist.
+	Er soll sich dabei zu mir ins Schlafzimmer schleichen!
+
+
+--- first meeting ---
+Euryalus: Sei gegrüßt, mein Herz, sei gegrüßt, Hort meines Lebens, du meine Hoffnung.
+	Umarme mich!
+
+Lucretia: Du bist wirklich da, Euryalus, du bist wirklich gekommen, Ärmster.
+
+Lucretia: Jetzt weiß ich, dass du mich Liebst, denn du hast mir deine Liebe bewiesen.
+	Aber du wirst sehen, auch ich bin es imstande.
+
+Lucretia: Niemand außer du wird mich besitzen, auch der nicht, den ich nach dem Gesetz meinen Gatten nennen muss.
+
+...
+
+Lucretia: Nehm dich in acht! Menelaos eilt bereits die Treppe hinauf!
+	Hier versteck dich unter dem Bett!
+
+Euryalus: Ich Narr! Nur mein Leichtsinn konnte mich verleiten, hierherzukommen!
+	Jetzt ertappen sie mich und ich verliere meine Ehre!
+
+\\CANCEL_DIALOG
+
+
+
+
 	
 
 
