@@ -190,10 +190,67 @@ dialogs = {
 	],
 	"first_meeting_2": [
 		{
+			sprite:	sLucretiaDialog,
+			text:	"Komm heraus, Euryalus, Geliebter."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Jetzt ist alles sicher, jetzt können wir ungestört miteinander sprechen, einander umarmen!"
+		},
+		{
 			sprite:	sEuryalusDialog,
-			text:	"lol"
-		},	
-	]
+			text:	"Nie habe ich solche Angst ausgestanden, aber du verdienst es."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Jetzt wollen wir die Frucht unserer Liebe genießen."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Oh es ist eine Sünde."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Ein Glück, das man genießen kann, nicht zu genießen."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Sollte ich nun die Gunst der Stunde ungenutzt vorübergehen lassen?"
+		},
+	],
+	"alley": [
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Oh Lucretia, meine Liebste, in welche Gefahren ich mich nur begebe, um dich endlich wieder in den Armen zu halten."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Lass uns diese Liebe genießen, mein Euryalus!"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"\n ..."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Versteck dich und fliehe! Mein Gatte ist zurück, ich werde ihn ablenken."
+		},
+	],
+	
+	"passage": [
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Lucretias Gatte war nach unserer letzten Begegnung wohl misstrauisch."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Ich muss einen anderen Weg zu der Frucht meines Lebens finden."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Meine letzte Hoffnung ist es, ihrem Verbündetem Pandalus meine Liebe zu gestehen."
+		},
+	],
 
 };
 

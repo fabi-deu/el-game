@@ -55,7 +55,66 @@ Lucretia: Nehm dich in acht! Menelaos eilt bereits die Treppe hinauf!
 Euryalus: Ich Narr! Nur mein Leichtsinn konnte mich verleiten, hierherzukommen!
 	Jetzt ertappen sie mich und ich verliere meine Ehre!
 
-\\CANCEL_DIALOG
+--- first meeting 2 ---
+(63)
+Lucretia: Komm heraus, Euryalus, Geliebter.
+	Jetzt ist alles sicher, jetzt können wir ungestört miteinander sprechen, einander umarmen!
+	
+Euryalus: Nie habe ich solche Angst ausgestanden, aber du verdienst es.
+	Jetzt wollen wir die Frucht unserer Liebe genießen
+
+Lucretia: Oh es ist eine Sünde.
+
+Euryalus: Ein Glück, das man genießen kann, nicht zu genießen.
+	Sollte ich nun die Gunst der Stunde ungenutzt vorübergehen lassen?
+
+--- alley ---
+
+Euryalus: Oh Lucretia, meine Liebste, in welche Gefahren ich mich nur begebe, um dich endlich wieder in den Armen zu halten.
+
+Lucretia: Lass uns diese Liebe genießen, mein Euryalus!
+	...
+	Versteck dich und fliehe! Mein Gatte ist zurück, ich werde ihn ablenken.
+
+--- passage ---
+
+Euryalus: Lucretias Gatte war nach unserer letzten Begegnung wohl misstrauisch.
+	Ich muss einen anderen Weg zu Ihr finden.
+	Meine letzte Hoffnung ist es, ihrem Verbündetem Pandalus meine Liebe zu gestehen.
+
+
+
+
+tmp:
+- vielchen liebesbrief
+- schneeball liebesbrief
+- gasse neues treffen (75)
+- gespräch im heu
+- 2. treffen (gasse hochgekettert)
+- mann kommt zurück
+- lucretia führt mann in weinkeller (81)
+- mann verhindert alle kommunikationsmöglichkeiten
+- euryalus erzählt pandalus (lucretias) von seiner liebe
+- er will dass pandalus ihm hilft lucretia wieder zu treffen (weggehen -> lucretia folgt; schande für familie)
+- pandalus wird pfalzgraf werden
+- pandalus ist bereit euryalus zu helfen (verlangt keine gegenleistung)
+- pandalus giert sich eigentlich nach dem titel
+- mann muss abreisenn um eine rauferei abzulegen -> nimmt euryalus' pferd
+- lucretia und euryalus treffen sich wieder
+- (99)
+- lucretia verlor das bewusstsein in euryalus' armen
+- wacht wieder auf
+- süße nacht
+- sehen sich viele tage nicht mehr
+- abreiße
+- lucretia: brief (105)
+- euryalus sagt: lucretia soll wegen ihres rufes da bleiben
+- abreiße (ohne lucretia)
+- euryalus leidet an schlimmen schmerzen und will lucretia sehen
+- er ist wieder in siena kann aber nicht mit ihr sprechen
+- lucretia stirbt wegen trauer
+- euryalus trauert
+
 
 
 
