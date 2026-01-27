@@ -186,17 +186,13 @@ dialogs = {
 		{
 			sprite:	sEuryalusDialog,
 			text:	"Jetzt ertappen sie mich und ich verliere meine Ehre!"
-		},
-		//
-		{
-			sprite:	noone,
-			text:	"\\CANCEL_DIALOG"
-		},
-		//
+		}
+	],
+	"first_meeting_2": [
 		{
 			sprite:	sEuryalusDialog,
-			text:	"wdwdwd"
-		},
+			text:	"lol"
+		},	
 	]
 
 };
