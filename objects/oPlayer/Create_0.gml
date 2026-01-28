@@ -261,6 +261,11 @@ dialogs = {
 		},
 		// lucretia fällt um
 		{
+			sprite:	noone,
+			text:	"\\LUCRETIA_PASSING_OUT"
+		},
+		//
+		{
 			sprite:	sEuryalusDialog,
 			text:	"Lucretia!? Lucretia!?"
 		},
@@ -304,6 +309,11 @@ dialogs = {
 			sprite:	sEuryalusDialog,
 			text:	"Verliere ich dich auf diese Weise?"
 		},
+		// lucretia waking up
+		{
+			sprite:	noone,
+			text:	"\\LUCRETIA_WAKE_UP"
+		},		
 		//
 		{
 			sprite:	sLucretiaDialog,

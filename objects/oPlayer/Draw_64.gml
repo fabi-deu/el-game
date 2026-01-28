@@ -7,13 +7,24 @@ var _room_name = room_get_name(room);
 var _sprite = dialogs[$_room_name][current_dialog].sprite;
 var _text	= dialogs[$_room_name][current_dialog].text;
 
-if (_text != "\\CANCEL_DIALOG") { // for making multiple dialogs possible
-	drawDialog(_sprite, _text);
-} else {
-	current_dialog++;
-	lock_step_event = false;
-	return;
+
+switch (_text) {
+	case "\\LUCRETIA_PASSING_OUT":	// last level
+		oLucretia.pass_out();
+		current_dialog++;
+		return;
+	case "\\LUCRETIA_WAKE_UP":		// last level
+		oLucretia.wake_up();
+		current_dialog++;
+		return;
+	case "\\CANCEL_DIALOG":			// probally not going to use
+		current_dialog++;
+		lock_step_event = false;
+		return;
+	default:
+		drawDialog(_sprite, _text);	//
 }
+
 
 // for next dialog
 if (keyboard_check_pressed(vk_left)) {
@@ -22,7 +33,7 @@ if (keyboard_check_pressed(vk_left)) {
 	current_dialog++;
 }
 
-
+// end of dialog
 if (array_length(dialogs[$_room_name]) == current_dialog) {
 	current_dialog = 0;
 	lock_step_event = false;

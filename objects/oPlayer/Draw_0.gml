@@ -11,7 +11,6 @@ if (is_dead && (current_time div 100) mod 2 == 0) {
 		c_red,
 		image_alpha
 	);
-} else
-{
+} else {
 	draw_self();
 }
