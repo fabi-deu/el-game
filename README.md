@@ -42,5 +42,9 @@ _Deshalb könnten Windows (Defender / SmartScreen) oder andere Antivirus-Program
   
 ---
 
+![](https://github.com/fabi-deu/el-game/blob/main/el-playthrough.mp4)
+
+
+
 > * Künstlich Intelligenz wurde teilweise aber in Maßen genutzt.
 > * ~ 60h Zeitaufwand
