@@ -7,7 +7,10 @@ var _room_name = room_get_name(room);
 var _sprite = dialogs[$_room_name][current_dialog].sprite;
 var _text	= dialogs[$_room_name][current_dialog].text;
 
-
+if (room == room_last) {
+	if (_text == "\\EXIT") game_end(0);
+	else drawCenteredDialog(_text);
+} else {
 switch (_text) {
 	case "\\LUCRETIA_PASSING_OUT":	// last level
 		oLucretia.pass_out();
@@ -23,6 +26,7 @@ switch (_text) {
 		return;
 	default:
 		drawDialog(_sprite, _text);	//
+}
 }
 
 

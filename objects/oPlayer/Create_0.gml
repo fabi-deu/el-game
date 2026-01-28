@@ -340,5 +340,122 @@ dialogs = {
 			text:	"Lass uns diese Nacht zur süßesten jemals machen."
 		},
 	],
+	"passage_2": [
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Wenn mein Herz Dir zürnen könnte, wäre ich böse auf Dich, dass du mir deine Abreiße verschwiegen hast."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Warum hast du mir verheimlicht, dass der Kaiser mit dir aufbrechen will?"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Was soll ich Arme dann tun?"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Wenn du mich verlässt, lebe ich keine zwei Tage mehr."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Ich verlange nicht, dass Du bleiben sollst, sondern dass Du mich mitnimmst."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Du brauchst nicht zu glauben, es sei für Dich eine Schande: auch Paris hat seine Helena geraubt."
+		},
+		//
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Ich habe es Dir, liebe Lucretia, bisher verschwiegen, damit Du Dich nicht vor der Zeit grämst."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Der Kaiser wird die Stadt nicht für immer verlassen, sondern wieder hierher zurückkehren."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Fasse also Mut und sei stark, mein Herz."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Gerne würde ich dich mitnehmen, aber wir müssen mehr an Deine Ehre als an meine Leidenschaft denken."
+		}
+	],
+	"outro": [
+		{
+			sprite:	noone,
+			text:	"Und so reiste Euryalus nur wenige Tage später mit dem Kaiser nach Rom."
+		},
+		{
+			sprite:	noone,
+			text:	"Doch dort befiel ihn ein heftiges Fieber."
+		},
+		{
+			sprite:	noone,
+			text:	"Nur mit großen Anstrengungen gelang es den Ärtzen, ihn am Leben zu halten."
+		},
+		{
+			sprite:	noone,
+			text:	"Aber kein Aznei half Euryalus mehr als ein Brief Lucretias, der ihm zeigte, dass sie am Leben und wohl behalten war."
+		},
+		{
+			sprite:	noone,
+			text:	"Als der Kaiser nach Perugia weiterzog, musste er freilich noch in Rom bleiben. Dann kam er, obwohl noch schwach und abgemagert, nach Siena."
+		},
+		{
+			sprite:	noone,
+			text:	"Aber er konnte Lucretia nur sehen, nicht sprechen."
+		},
+		{
+			sprite:	noone,
+			text:	"Doch nach drei Tagen wurde die Abreise gemeldet."
+		},
+		{
+			sprite:	noone,
+			text:	"Nie war ihr Zusammensein so süß gewesen, wie nun der Abschied schmerzte."
+		},
+		{
+			sprite:	noone,
+			text:	"Unsere Lucretia nun brach wie leblos zusammen, nachdem Euryalus ihren Blick entschwunden war."
+		},
+		{
+			sprite:	noone,
+			text:	"Sie ging nur noch in Schwarz, man hörte sie nicht mehr singen und lachen."
+		},
+		{
+			sprite:	noone,
+			text:	"In diesem Zustand verharrte sie einige Zeit, dann wurde sie Krank und ihre trostlose Seele enfloh diesem grausamen Leben."
+		},
+		{
+			sprite:	noone,
+			text:	"Aber Euryalus konnte sich nicht trennen, so folgte ihm Lucretia in seinen Träumen und ließ ihn keine Nacht ruhen."
+		},
+		{
+			sprite:	noone,
+			text:	"Und als er von ihrem Tod erfuhr, zog er, von Schmerz überwältigt, Trauerkleider an."
+		},
+		{
+			sprite:	noone,
+			text:	"..."
+		},
+		{
+			sprite:	noone,
+			text:	"So endet die wahre Geschichte einer unglücklichen Liebe."
+		},
+		{
+			sprite:	noone,
+			text:	"Ihre Leser mögen sich daran ein Beispiel nehmen und den Becher der Liebe nicht zu trinken verlangen."
+		},
+		{
+			sprite:	noone,
+			text:	"Euryalus und Lucretia\nWien, den 3. Juli 1444"
+		},
+		{
+			sprite:	noone,
+			text:	"\\EXIT" // exit game
+		}
+	],
 };
 
