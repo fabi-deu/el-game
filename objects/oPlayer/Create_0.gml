@@ -49,12 +49,11 @@ window_center();
 platform_tiles = layer_tilemap_get_id("platform_tiles");
 colliders = [
 	layer_tilemap_get_id("dirt_tiles"),
-	layer_tilemap_get_id("brick_tiles"),
 	layer_tilemap_get_id("pebble_tiles"),
-	//oBricks,
-	oBarrier
+	oBarrier,
+	layer_tilemap_get_id("brick_tiles"),
 ];
-
+show_debug_message(layer_tilemap_get_id("brick_tiles"));
 
 // dialogs
 lock_step_event = false;
