@@ -29,7 +29,6 @@ enum PlayerState {
 	WALK,
 	JUMP,
 }
-show_debug_message(image_speed);
 
 
 state = PlayerState.IDLE
@@ -251,6 +250,85 @@ dialogs = {
 			text:	"Meine letzte Hoffnung ist es, ihrem Verbündetem Pandalus meine Liebe zu gestehen."
 		},
 	],
-
+	"last_meeting": [
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Lucretia, mein Herz, sei gegrüßt."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Umarme mich!"
+		},
+		// lucretia fällt um
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Lucretia!? Lucretia!?"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Es wäre todeswürdig, jetzt wegzulaufen und diese Frau in ihrem Elend zu verlassen."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Bleibe ich aber, so kann einer aus der Familie kommen, und dann bin ich verloren."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Oh unselige Liebe, in welche Gefahren hast du mich nicht schon gebracht?"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Es fehlte nur noch, dass du mir diese Frau in meinen Armen entseelst."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"\n ..."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Warum hörst du mich nicht?"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Warum antwortest du nicht?"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Öffne die Augen - bitte - und sieh mich an."
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Wenn du sterben wolltest, warum hast du mir nichts gesagt, auf dass wir zusammen gestorben wären?"
+		},
+		{
+			sprite:	sEuryalusDialog,
+			text:	"Verliere ich dich auf diese Weise?"
+		},
+		//
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Weh mir, Euryalus, wo bin ich gewesen?"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Warum hast du mich nicht hinscheiden lassen?"
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Ich war dabei, glücklich in deinen Armen zu sterben."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Oh, könnte ich nur so dahingehen, bevor du diese Stadt verläßt."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Du bist mein Ganymed, mein Hippolytos, mien Diomedes."
+		},
+		{
+			sprite:	sLucretiaDialog,
+			text:	"Lass uns diese Nacht zur süßesten jemals machen."
+		},
+	],
 };
 

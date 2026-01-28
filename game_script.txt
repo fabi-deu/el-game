@@ -83,6 +83,32 @@ Euryalus: Lucretias Gatte war nach unserer letzten Begegnung wohl misstrauisch.
 	Meine letzte Hoffnung ist es, ihrem Verbündetem Pandalus meine Liebe zu gestehen.
 
 
+--- last_meeting ---
+Euryalus: Lucretia, mein Herz, sei gegrüßt.
+	Umarme mich!
+
+*lucretia fällt um*
+
+Euryalus: Lucretia!? Lucretia!?
+	Es wäre todeswürdig, jetzt wegzulaufen und diese Frau in ihrem Elend zu verlassen.
+	Bleibe ich aber, so kann einer aus der Familie kommen, und dann bin ich verloren.
+	Oh unselige Liebe, in welche Gefahren hast du mich nicht schon gebracht?
+	Es fehlte nur noch, dass du mir diese Frau in meinen Armen entseelst.
+	...
+	Warum hörst du mich nicht?
+	Warum antwortest du nicht?
+	Öffne die Augen - bitte - und sieh mich an.
+	Wenn du sterben wolltest, warum hast du mir nichts gesagt, auf dass wir zusammen gestorben wären?
+	Verliere ich dich auf diese Weise?
+
+Lucretia: Weh mir, Euryalus, wo bin ich gewesen?
+	Warum hast du mich nicht hinscheiden lassen?
+	Ich war dabei, glücklich in deinen Armen zu sterben.
+	Oh, könnte ich nur so dahingehen, bevor du diese Stadt verläßt.
+	Du bist mein Ganymed, mein Hippolytos, mien Diomedes.
+	Lass uns diese Nacht zur süßesten jemals machen.
+
+
 
 
 tmp:
@@ -117,8 +143,5 @@ tmp:
 
 
 
-
-
-	
 
 

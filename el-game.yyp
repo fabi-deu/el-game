@@ -58,6 +58,7 @@
     {"id":{"name":"first_meeting_2","path":"rooms/first_meeting_2/first_meeting_2.yy",},},
     {"id":{"name":"first_meeting","path":"rooms/first_meeting/first_meeting.yy",},},
     {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
+    {"id":{"name":"last_meeting","path":"rooms/last_meeting/last_meeting.yy",},},
     {"id":{"name":"lucretias_villa","path":"rooms/lucretias_villa/lucretias_villa.yy",},},
     {"id":{"name":"passage","path":"rooms/passage/passage.yy",},},
     {"id":{"name":"window","path":"rooms/window/window.yy",},},
@@ -114,6 +115,7 @@
     {"roomId":{"name":"first_meeting_2","path":"rooms/first_meeting_2/first_meeting_2.yy",},},
     {"roomId":{"name":"alley","path":"rooms/alley/alley.yy",},},
     {"roomId":{"name":"passage","path":"rooms/passage/passage.yy",},},
+    {"roomId":{"name":"last_meeting","path":"rooms/last_meeting/last_meeting.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
