@@ -46,5 +46,5 @@ _Deshalb könnten Windows (Defender / SmartScreen) oder andere Antivirus-Program
 
 
 
-> * Künstlich Intelligenz wurde teilweise aber in Maßen genutzt.
+> * Künstlich Intelligenz wurde teilweise genutzt.
 > * ~ 60h Zeitaufwand
