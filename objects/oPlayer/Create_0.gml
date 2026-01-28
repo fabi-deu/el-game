@@ -49,8 +49,9 @@ window_center();
 platform_tiles = layer_tilemap_get_id("platform_tiles");
 colliders = [
 	layer_tilemap_get_id("dirt_tiles"),
+	layer_tilemap_get_id("brick_tiles"),
 	layer_tilemap_get_id("pebble_tiles"),
-	oBricks,
+	//oBricks,
 	oBarrier
 ];
 
