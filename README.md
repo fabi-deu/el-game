@@ -1,7 +1,7 @@
 # Euryalus und Lucretia Platformer Spiel
 ## Inhalt
   * [Übersicht](#übersicht)
-    + [Steuerung:](#steuerung)
+    + [Steuerung](#steuerung)
   * [Installation](#installation)
     + [Windows](#windows)
     + [MacOS](#macos)
